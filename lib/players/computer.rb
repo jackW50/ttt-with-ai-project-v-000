@@ -27,7 +27,9 @@ module Players
       input 
     end
     
-    def center_move(board)
+    def center(board)
+      board.cells[4]
+    end
       
     
     def open_corner(board)
