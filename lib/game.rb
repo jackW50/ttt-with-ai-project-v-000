@@ -90,5 +90,8 @@ class Game
       elsif first == "User"
         player_1 = Players::Human.new("X")
         player_2 = Players::Computer.new("O")
+      elsif first == "Computer"
+        player_1 = Players::Computer.new("X")
+        player_2 = Players::Human.new("O")
     
 end 
