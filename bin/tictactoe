@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-board = Board.new
+
 puts "Tic Tac Toe"
 puts "How many?"
 input = gets.strip
