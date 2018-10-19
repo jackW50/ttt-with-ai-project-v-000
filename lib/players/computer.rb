@@ -111,8 +111,10 @@ module Players
         "3" 
       elsif left_edge(board) != " " && corner_4(board) == " "
         "9"
-      elsif right_edge(board) != " "
-        "1" || "7"
+      elsif right_edge(board) != " " && corner_1(board) == " "
+        "1"
+      elsif right_edge(board) != " " && corner_3(board) == " "
+        "3"
       else 
        nil 
       end 
