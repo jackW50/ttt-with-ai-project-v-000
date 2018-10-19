@@ -179,6 +179,8 @@ module Players
         (win?(board) + 1).to_s
       else 
         nil
+      end 
+    end 
         
   end 
 end 
