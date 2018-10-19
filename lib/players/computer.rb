@@ -194,6 +194,17 @@ module Players
         nil 
       end 
     end 
-        
+    
+    def open_edge?(board)
+      if board.cells[1] == " "
+        "2"
+      elsif board.cells[3] == " "
+        "4"
+      elsif board.cells[5] == " "
+        "6"
+      elsif board.cells[7] == " "
+        "8"
+      else 
+        nil
   end 
 end 
