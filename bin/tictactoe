@@ -18,6 +18,7 @@ end
 
 if input == 2 
   player_1 = Players::Human.new("X")
+  player_2 = Players::Human.new("O")
 
 
 
