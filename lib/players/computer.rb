@@ -61,28 +61,6 @@ module Players
       end 
     end 
   
-  #  def corner_furthest(board)
-   #   if top_edge(board) != " " && corner_3(board) == " " 
-   #     "7"
-  #    elsif if top_edge(board) != " " && corner_4(board) == " "
-   #     "9"
-  #    elsif bottom_edge(board) != " " && corner_1(board) == " "
-   #     "1"
-   #   elsif bottom_edge(board) != " " && corner_2(board) == " "
-  #      "3"
-  #    elsif left_edge(board) != " " && corner_2(board) == " "
-  #      "3" 
-  #    elsif left_edge(board) != " " && corner_4(board) == " "
-   #     "9"
-  #    elsif right_edge(board) != " " && corner_1(board) == " "
-  #      "1"
-  #    elsif right_edge(board) != " " && corner_3(board) == " "
-  #      "3"
- #     else 
-  #     nil 
-  #    end 
-  #  end 
-  
     def almost_winner_x(board)
       WIN_COMBINATIONS.detect do |win_combo|
             (board.cells[win_combo[0]] == "X" && board.cells[win_combo[1]] == "X" && board.cells[win_combo[2]] == " ") || (board.cells[win_combo[0]] == " " && board.cells[win_combo[1]] == "X" && board.cells[win_combo[2]] == "X") || (board.cells[win_combo[0]] == "X" && board.cells[win_combo[1]] == " " && board.cells[win_combo[2]] == "X")
