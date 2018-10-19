@@ -132,15 +132,15 @@ module Players
       end 
     end
   
-  #  def almost_winner(board)
-  #    if almost_winner_x(board).is_a?(Array)
-  #      almost_winner_x(board)
-  #    elsif almost_winner_o(board).is_a?(Array)
- #       almost_winner_o(board)
-  #    else 
-  #      nil
-   #   end 
-  #  end 
+    def almost_winner(board)
+      if almost_winner_x(board).is_a?(Array)
+        almost_winner_x(board)
+      elsif almost_winner_o(board).is_a?(Array)
+        almost_winner_o(board)
+      else 
+        nil
+      end 
+    end 
   
     def counter(board)
       if almost_winner(board) == nil
