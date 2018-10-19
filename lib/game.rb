@@ -107,7 +107,7 @@ class Game
     if answer == "Y"
       start
     else 
-      nil 
+      "GoodBye!" 
     end 
   end 
       
