@@ -161,6 +161,6 @@ module Players
     end 
     
     def go_for_win(board)
-      
+      if almost_winner_x(board).is_a?(Array) && token == "X"
   end 
 end 
