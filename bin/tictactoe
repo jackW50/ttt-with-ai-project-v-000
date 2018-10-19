@@ -5,8 +5,22 @@ require_relative '../config/environment'
 puts "Tic Tac Toe"
 puts "How many?"
 input = gets.strip
+player_1 = nil
+player_2 = nil
 
-def start
+def player_1
+  if input == 1 
+    player_1 = "Human"
+    player_2 = "Computer"
+  elsif input == 2
+   player_1 == "Human"
+   player_2 == "Human"
+  else
+    "Wha Happened?"
+  end 
+end 
+
+
 
 
 
