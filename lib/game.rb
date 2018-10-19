@@ -65,26 +65,5 @@ class Game
       end
     end 
   end 
-    
-    def start 
-      puts "Hello!, Let's Play Tic Tac Toe!"
-      puts "How many players: 1, 2 or 0"
-      input = gets.strip 
-
-      puts "Will you go first or second?"
-      order = gets.strip
-      
-      if input == 1 && order == "first"
-        player_1 = Players::Human.new("X")
-        player_2 = Players::Computer.new("O")
-
-      elsif input == 2 
-        player_1 = Players::Human.new("X")
-        player_2 = Players::Human.new("O")
-  
-      elsif input == 0
-        player_1 = Players::Computer.new("X")
-        player_2 = Players::Computer.new("O")
-  
       
 end 
