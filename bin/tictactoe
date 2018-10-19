@@ -8,7 +8,7 @@ input = gets.strip
 
 order = nil
 
-if input == 1 || 2 
+if input == "1" || "2" 
   puts "Will you go first or second?"
   order = gets.strip
 end 
