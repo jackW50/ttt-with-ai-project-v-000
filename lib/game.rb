@@ -66,5 +66,32 @@ class Game
     end 
   end 
   
+  def start 
+    player_1 = nil 
+    player_2 = nil
+    puts "Tic Tac Toe"
+    puts "How many?"
+    input = gets.strip.to_i
+
+    puts "Who goes first? For User: 1, and for Computer: 2"
+    order = gets.strip.to_i
+
+    if input == 1 && order == 1 
+      player_1 = Players::Human.new("X")
+      player_2 = Players::Computer.new("O")
+
+    elsif input == 1 && order == 2 
+      player_1 = Players::Computer.new("X")
+      player_2 = Players::Human.new("O")
+
+    elsif input == 2 
+      player_1 = Players::Human.new("X")
+      player_2 = Players::Human.new("O")
+
+    elsif input == 0 
+      player_1 = Players::Computer.new("X")
+      player_2 = Players::Computer.new("O")
+    end 
+
       
 end 
