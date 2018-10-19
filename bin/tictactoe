@@ -31,3 +31,4 @@ board = Board.new
 game = Game.new(player_1, player_2, board)
 
 game.play 
+end
