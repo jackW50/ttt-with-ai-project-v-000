@@ -6,7 +6,7 @@ puts "Hello!, Let's Play Tic Tac Toe!"
 puts "How many players: 1, 2 or 0"
 input = gets.strip 
 
-def players(input)
+def player_1(input)
   if input == 1 || 2  
     player_1 = Players::Human.new("X") 
   
@@ -16,7 +16,8 @@ def players(input)
   elsif input == 2 
     player_2 = Players::Human.new("O") 
 
-player_2 = Players::Computer.new("O") if input == 0 || 1 
+  elsif if input == 0 || 1 
+    player_2 = Players::Computer.new("O") 
 
 board = Board.new
 
