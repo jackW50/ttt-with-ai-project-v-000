@@ -186,7 +186,7 @@ module Players
       if board.cells[0] != " " && board.cells[8] != " "
         "4"
       elsif board.cells[6] != " " && board.cells[2] != " "
-        ""
+        "6"
         
   end 
 end 
