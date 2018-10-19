@@ -71,10 +71,11 @@ class Game
     puts "How many players? 0, 1, or 2"
     players = gets.strip
     if players != 0 || 1 || 2
-      start 
+      "Wha Happened" 
     elsif players == 1 
       puts "Who should go first? User or Computer?"
       first = gets.strip 
-      if first 
+      if first != "User" || "Computer"
+      
     
 end 
