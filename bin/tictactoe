@@ -16,8 +16,11 @@ if input == 1 && order == "first"
 if input == 2 
   player_1 = Players::Human.new("X")
   player_2 = Players::Human.new("O")
+end 
   
 if input == 0
   player_1 = Players::Computer.new("X")
   player_2 = Players::Computer.new("O")
+end  
+game =
   
