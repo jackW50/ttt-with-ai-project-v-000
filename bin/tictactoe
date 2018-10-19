@@ -8,8 +8,8 @@ input = gets.strip
 
 order = nil
 
-if input == "1" || "2" 
-  puts "Will you go first or second?"
+if input == 1 || 2 
+  puts "Will you go: 1 or 2"
   order = gets.strip
 end 
 
