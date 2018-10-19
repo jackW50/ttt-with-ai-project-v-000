@@ -176,6 +176,9 @@ module Players
     
     def go_for_win 
       if win?(board).is_a(Integer)
+        (win?(board) + 1).to_s
+      else 
+        nil
         
   end 
 end 
