@@ -26,5 +26,7 @@ end
 
 board = Board.new
 
-game =
+game = Game.new(player_1, player_2, board)
+
+game.play
   
