@@ -89,9 +89,9 @@ module Players
         "9"
       elsif board.cells[2] != " "
         "7"
-      elsif corner_3(board) != " "
+      elsif board.cells[6] != " "
         "3"
-      elsif corner_4(board) != " "
+      elsif board.cells[8] != " "
         "1"
       else 
         nil 
