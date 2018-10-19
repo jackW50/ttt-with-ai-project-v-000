@@ -70,7 +70,7 @@ class Game
     player_1 = nil 
     player_2 = nil
     puts "Tic Tac Toe"
-    puts "How many?"
+    puts "How many players? 1, 2, or 0"
     input = gets.strip.to_i
 
     puts "Who goes first? For User: 1, and for Computer: 2"
