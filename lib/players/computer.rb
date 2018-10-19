@@ -26,7 +26,9 @@ module Players
       end 
       input 
     end
-
+    
+    def center_move(board)
+      
     
     def open_corner(board)
       if board.cells[0] == " "
