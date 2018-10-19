@@ -6,6 +6,8 @@ puts "Hello!, Let's Play Tic Tac Toe!"
 puts "How many players: 1, 2 or 0"
 input = gets.strip 
 
+order = nil
+
 if input == 1 || 2 
   puts "Will you go first or second?"
   order = gets.strip
