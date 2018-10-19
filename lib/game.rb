@@ -75,14 +75,14 @@ class Game
       order = gets.strip
       
       if input == 1 && order == "first"
-       player_1 = Players::Human.new("X")
+        player_1 = Players::Human.new("X")
         player_2 = Players::Computer.new("O")
 
-      if input == 2 
+      elsif input == 2 
         player_1 = Players::Human.new("X")
         player_2 = Players::Human.new("O")
   
-      if input == 0
+      elsif input == 0
         player_1 = Players::Computer.new("X")
         player_2 = Players::Computer.new("O")
   
