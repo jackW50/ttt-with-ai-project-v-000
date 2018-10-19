@@ -116,9 +116,9 @@ module Players
   #    elsif right_edge(board) != " " && corner_3(board) == " "
   #      "3"
  #     else 
-       nil 
-      end 
-    end 
+  #     nil 
+  #    end 
+  #  end 
   
     def almost_winner_x(board)
       WIN_COMBINATIONS.detect do |win_combo|
