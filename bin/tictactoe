@@ -2,8 +2,9 @@
 
 require_relative '../config/environment'
 
-start
-
+puts "Tic Tac Toe"
+puts "How many?"
+input = gets.strip
 
 
 
