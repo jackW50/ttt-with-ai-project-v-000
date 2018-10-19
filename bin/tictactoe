@@ -11,10 +11,10 @@ def player_1(input)
   if input == 1 || 2  
     player_1 = Players::Computer.new("X") 
   
-#  elsif input == 0
-#    player_1 = Players::Computer.new("X") 
-#  end 
-#end 
+  elsif input == 0
+    player_1 = Players::Computer.new("X") 
+  end 
+end 
   
 #def player_2(input)  
 #  if input == 2 
