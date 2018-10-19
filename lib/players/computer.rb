@@ -185,16 +185,6 @@ module Players
       end 
     end 
     
-    def no_fork(board)
-      if board.cells[4] != " " && board.cells[4] == 
-        "4"
-      elsif board.cells[6] != " " && board.cells[2] != " "
-        "6"
-      else 
-        nil 
-      end 
-    end 
-    
     def open_edge?(board)
       if board.cells[1] == " "
         "2"
