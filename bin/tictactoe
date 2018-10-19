@@ -10,6 +10,9 @@ puts "order?"
 order = gets.strip
 
 player_1 = Players::Human.new("X") if input == 1
+player_2 = Players::Computer.new("O") if input == 1 
+
+
 
 
 
