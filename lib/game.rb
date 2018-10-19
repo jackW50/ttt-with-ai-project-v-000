@@ -100,7 +100,7 @@ class Game
     end 
   end 
   
-  def game_over 
+  def self.game_over 
     puts "GAME OVER"
     puts "Would you like to play again y/n"
     answer = gets.strip.upcase
