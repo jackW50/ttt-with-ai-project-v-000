@@ -24,7 +24,6 @@ module Players
       else 
         input = go_for_win(board) || counter_attack(board) || open_corner(board) || rand(1..9)
       end 
-      
       input 
     end
   
