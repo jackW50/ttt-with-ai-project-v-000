@@ -79,18 +79,22 @@ class Game
     if input == 1 && order == 1 
       player_1 = Players::Human.new("X")
       player_2 = Players::Computer.new("O")
+      Game.new(player_1, player_2)
 
     elsif input == 1 && order == 2 
       player_1 = Players::Computer.new("X")
       player_2 = Players::Human.new("O")
-
+      Game.new(player_1, player_2)
+      
     elsif input == 2 
       player_1 = Players::Human.new("X")
       player_2 = Players::Human.new("O")
-
+      Game.new(player_1, player_2)
+      
     elsif input == 0 
       player_1 = Players::Computer.new("X")
       player_2 = Players::Computer.new("O")
+      Game.new(player_1, player_2)
     end 
 
       
