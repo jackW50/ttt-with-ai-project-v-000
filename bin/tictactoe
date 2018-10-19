@@ -4,7 +4,7 @@ require_relative '../config/environment'
 
 puts "Hello!, Let's Play Tic Tac Toe!"
 puts "How many players: 1, 2 or 0"
-#input = gets.strip 
+input = gets.strip 
 
 def player_1(input)
   players = []
@@ -16,14 +16,14 @@ def player_1(input)
   end 
 end 
   
-#def player_2(input)  
-#  if input == 2 
-#    player_2 = Players::Human.new("O") 
+def player_2(input)  
+  if input == 2 
+    player_2 = Players::Human.new("O") 
 
-#  elsif if input == 0 || 1 
-#    player_2 = Players::Computer.new("O") 
-#  end
-#end 
+  elsif if input == 0 || 1 
+    player_2 = Players::Computer.new("O") 
+  end
+end 
 
 player_1 = Players::Computer.new("X") 
 player_2 = Players::Computer.new("O")
