@@ -173,6 +173,9 @@ module Players
         nil 
       end
     end 
+    
+    def go_for_win 
+      if win?(board).is_a(Interger)
         
   end 
 end 
