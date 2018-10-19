@@ -4,7 +4,7 @@ require_relative '../config/environment'
 
 puts "Tic Tac Toe"
 puts "How many?"
-gets.strip = input
+inputs = gets.strip
 
 puts "order?"
 order = gets.strip
