@@ -98,24 +98,24 @@ module Players
       end 
     end 
   
-    def corner_furthest(board)
-      if top_edge(board) != " " && corner_3(board) == " " 
-        "7"
-      elsif if top_edge(board) != " " && corner_4(board) == " "
-        "9"
-      elsif bottom_edge(board) != " " && corner_1(board) == " "
-        "1"
-      elsif bottom_edge(board) != " " && corner_2(board) == " "
-        "3"
-      elsif left_edge(board) != " " && corner_2(board) == " "
-        "3" 
-      elsif left_edge(board) != " " && corner_4(board) == " "
-        "9"
-      elsif right_edge(board) != " " && corner_1(board) == " "
-        "1"
-      elsif right_edge(board) != " " && corner_3(board) == " "
-        "3"
-      else 
+  #  def corner_furthest(board)
+   #   if top_edge(board) != " " && corner_3(board) == " " 
+   #     "7"
+  #    elsif if top_edge(board) != " " && corner_4(board) == " "
+   #     "9"
+  #    elsif bottom_edge(board) != " " && corner_1(board) == " "
+   #     "1"
+   #   elsif bottom_edge(board) != " " && corner_2(board) == " "
+  #      "3"
+  #    elsif left_edge(board) != " " && corner_2(board) == " "
+  #      "3" 
+  #    elsif left_edge(board) != " " && corner_4(board) == " "
+   #     "9"
+  #    elsif right_edge(board) != " " && corner_1(board) == " "
+  #      "1"
+  #    elsif right_edge(board) != " " && corner_3(board) == " "
+  #      "3"
+ #     else 
        nil 
       end 
     end 
