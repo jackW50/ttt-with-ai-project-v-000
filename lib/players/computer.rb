@@ -206,5 +206,7 @@ module Players
         "8"
       else 
         nil
+      end 
+    end 
   end 
 end 
