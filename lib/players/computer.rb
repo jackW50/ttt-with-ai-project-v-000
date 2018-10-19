@@ -87,7 +87,7 @@ module Players
     def opposite_corner(board)
       if board.cells[0] != " "
         "9"
-      elsif corner_2(board) != " "
+      elsif board.cells[2] != " "
         "7"
       elsif corner_3(board) != " "
         "3"
