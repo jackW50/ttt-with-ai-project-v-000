@@ -6,23 +6,16 @@ puts "Hello!, Let's Play Tic Tac Toe!"
 puts "How many players: 1, 2 or 0"
 input = gets.strip 
 
+board = Board.new
+
 puts "Will you go 1 or 2?"
 order = gets.strip
 
-if input == 1 && order == 1
-  player_1 = Players::Human.new("X")
-  player_2 = Players::Computer.new("O")
+if input == 1 
+  Game.new(Players::Human.new("X"), Players::Computer.new("O"), board
 end 
 
-if input == 2 
-  player_1 = Players::Human.new("X")
-  player_2 = Players::Human.new("O")
-end 
-  
-if input == 0
-  player_1 = Players::Computer.new("X")
-  player_2 = Players::Computer.new("O")
-end  
+if input == 2
 
 board = Board.new
 
