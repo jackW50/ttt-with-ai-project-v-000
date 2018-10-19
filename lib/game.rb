@@ -94,7 +94,7 @@ class Game
     elsif input == 0 
       player_1 = Players::Computer.new("X")
       player_2 = Players::Computer.new("O")
-      Game.new(player_1, player_2)
+      Game.new(player_1, player_2).play
     else 
       start
     end 
