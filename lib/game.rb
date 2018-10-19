@@ -67,5 +67,12 @@ class Game
   end 
     
     def start 
+      puts "Hello!, Let's Play Tic Tac Toe!"
+      puts "How many players: 1, 2 or 0"
+      input = gets.strip 
+
+      puts "Will you go first or second?"
+      order = gets.strip
+      
       
 end 
