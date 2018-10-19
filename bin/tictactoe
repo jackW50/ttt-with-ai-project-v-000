@@ -13,6 +13,7 @@ def player_1(input)
   elsif input == 0
     player_1 = Players::Computer.new("X") 
   
+def player_2(input)  
   elsif input == 2 
     player_2 = Players::Human.new("O") 
 
