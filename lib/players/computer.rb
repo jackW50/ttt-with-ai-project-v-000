@@ -159,6 +159,8 @@ module Players
         nil 
       end 
     end 
+    
+    def go_for_win(board)
       
   end 
 end 
