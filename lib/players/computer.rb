@@ -152,13 +152,13 @@ module Players
       end 
     end 
     
-    def counter_attack(board)
-      if counter(board) != nil
-        (counter(board) + 1).to_s
-      elsif counter(board) == nil  
-        nil 
-      end 
-    end 
+    #def counter_attack(board)
+    #  if counter(board) != nil
+    #    (counter(board) + 1).to_s
+   #   elsif counter(board) == nil  
+   #     nil 
+   #   end 
+   # end 
       
   end 
 end 
