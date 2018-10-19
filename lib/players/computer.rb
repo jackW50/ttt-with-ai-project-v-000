@@ -19,7 +19,7 @@ module Players
         input = opposite_corner(board) || open_corner(board)  
         
       elsif board.turn_count == 3  
-        input = edge_move?(board) || counter_attack(board) || open_corner(board) 
+        input = counter_attack(board) || open_corner(board) 
       
       elsif board.turn_count == 6
         input = go_for_win(board) || counter_attack(board) || open_edge?(board)
@@ -186,7 +186,7 @@ module Players
     end 
     
     def no_fork(board)
-      if board.cells[0] != " " && board.cells[8] != " "
+      if board.cells[4] != " " && board.cells[4] == 
         "4"
       elsif board.cells[6] != " " && board.cells[2] != " "
         "6"
