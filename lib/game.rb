@@ -108,7 +108,7 @@ class Game
     if answer == "Y"
       start
     else 
-      "GoodBye!" 
+      puts "GoodBye!" 
     end 
   end 
       
