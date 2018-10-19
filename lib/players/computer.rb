@@ -19,7 +19,7 @@ module Players
         input = opposite_corner(board) || open_corner(board)  
         
       elsif board.turn_count == 3  
-        input = counter_attack(board) || opposite_corner(board) || corner_furthest(board) || open_corner(board) 
+        input = counter_attack(board) || opposite_corner(board) || open_corner(board) 
         
       else 
         input = counter_attack(board) || open_corner(board) || rand(1..9)
