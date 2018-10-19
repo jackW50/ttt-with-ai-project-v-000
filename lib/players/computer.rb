@@ -162,6 +162,8 @@ module Players
     
     def win?(board)
       if almost_winner_x(board).is_a?(Array) && token == "X"
+        almost_winner_x(board).detect do |spot|
+          board.cells[spot] == " "
         
   end 
 end 
