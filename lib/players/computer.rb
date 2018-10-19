@@ -13,7 +13,7 @@ module Players
         input = "5"
         
       elsif board.turn_count == 1 && center(board) != " "
-        input = "7"
+        input = open_corner(board)
         
       elsif board.turn_count == 2
         input = opposite_corner(board) || open_corner(board)  
