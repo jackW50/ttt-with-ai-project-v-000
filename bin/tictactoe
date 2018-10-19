@@ -16,6 +16,9 @@ if input == 1 && order == 1
   player_2 = Players::Computer.new("O")
 end
 
+if input == 2 
+  player_1 = Players::Human.new("X")
+
 
 
 game = Game.new(player_1, player_2)
