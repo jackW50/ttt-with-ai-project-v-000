@@ -31,7 +31,7 @@ module Players
       board.cells[4]
     end
       
-    def center_move(board)
+    def center_move
       "5"
     end 
     
