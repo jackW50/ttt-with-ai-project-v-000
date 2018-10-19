@@ -187,6 +187,10 @@ module Players
         "4"
       elsif board.cells[6] != " " && board.cells[2] != " "
         "6"
+      else 
+        nil 
+      end 
+    end 
         
   end 
 end 
