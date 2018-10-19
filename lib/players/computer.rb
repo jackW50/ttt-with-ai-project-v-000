@@ -16,7 +16,7 @@ module Players
         input = "7"
         
       elsif board.turn_count == 2
-        input = opposite_corner(board) || open_corner(board) || corner_furthest(board) 
+        input = opposite_corner(board) || open_corner(board)  
         
       elsif board.turn_count == 3  
         input = counter_attack(board) || opposite_corner(board) || corner_furthest(board) || open_corner(board) 
