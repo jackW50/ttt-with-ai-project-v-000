@@ -25,7 +25,7 @@ def player_2(input)
 end 
 
 player_1(input)
-player_2(input)
+#player_2(input)
 board = Board.new
 
 game = Game.new(player_1, player_2, board)
