@@ -1,3 +1,15 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+puts "Hello!, Let's Play Tic Tac Toe!"
+
+player_1 = Players::Computer.new("X")
+
+player_2 = Players::Computer.new("O")
+
+board = Board.new
+
+game = Game.new(player_1, player_2, board)
+
+game.play 
