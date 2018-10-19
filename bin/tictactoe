@@ -6,7 +6,7 @@ puts "Tic Tac Toe"
 puts "How many?"
 input = gets.strip.to_i
 
-puts "order?"
+puts "Who goes first? For User: 1, and for Computer: 2"
 order = gets.strip
 
 player_1 = Players::Computer.new("X") 
@@ -16,12 +16,6 @@ game = Game.new(player_1, player_2)
 
 game.play
 
-if input == 1 
-  puts input
-end 
 
-if input == 2 
-  puts "Next"
-end 
 
   
