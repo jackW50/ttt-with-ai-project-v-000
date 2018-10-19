@@ -21,6 +21,7 @@ def player_2(input)
 
   elsif if input == 0 || 1 
     player_2 = Players::Computer.new("O") 
+  end
 
 board = Board.new
 
