@@ -17,9 +17,6 @@ module Players
         
       elsif board.turn_count == 2
         input = opposite_corner(board) || open_corner(board)  
-        
-      #elsif board.turn_count == 3  
-      #  input = go_for_win(board) || counter_attack(board) || open_corner(board) 
       
       elsif board.turn_count == 6
         input = go_for_win(board) || counter_attack(board) || open_edge?(board)
