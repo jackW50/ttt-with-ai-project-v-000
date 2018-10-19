@@ -8,7 +8,7 @@ input = gets.strip
 
 #def player_1(input)
 #  if input == 1 || 2  
- #   player_1 = Players::Human.new("X") 
+ #   player_1 = Players::Computer.new("X") 
   
 #  elsif input == 0
 #    player_1 = Players::Computer.new("X") 
