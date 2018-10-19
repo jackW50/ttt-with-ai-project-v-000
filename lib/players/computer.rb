@@ -149,7 +149,7 @@ module Players
         almost_winner(board).detect do |spot|
           board.cells[spot] == " "
         end 
-     end 
+      end 
     end 
     
     def counter_attack(board)
