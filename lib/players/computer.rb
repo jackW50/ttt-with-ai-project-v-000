@@ -107,7 +107,7 @@ module Players
         "1"
       elsif bottom_edge(board) != " " && corner_2(board) == " "
         "3"
-     elsif left_edge(board) != " " && corner_2(board) == " "
+      elsif left_edge(board) != " " && corner_2(board) == " "
         "3" 
       elsif left_edge(board) != " " && corner_4(board) == " "
         "9"
