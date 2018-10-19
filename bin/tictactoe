@@ -2,14 +2,7 @@
 
 require_relative '../config/environment'
 
-puts "Hello!, Let's Play Tic Tac Toe!"
-puts "How many players: 1, 2 or 0"
-input = gets.strip 
-
-board = Board.new
-
-puts "Will you go 1 or 2?"
-order = gets.strip
+start
 
 
 
