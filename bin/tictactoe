@@ -8,7 +8,7 @@ input = gets.strip
 
 if input = 1
   puts "Wha Happened?"
-  
+end
 
 
 
