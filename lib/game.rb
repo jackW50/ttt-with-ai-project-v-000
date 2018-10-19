@@ -65,5 +65,11 @@ class Game
       end
     end 
   end 
+  
+  def start 
+    puts "Tic Tac Toe"
+    puts "How many?"
+    players = gets.strip 
+    
       
 end 
