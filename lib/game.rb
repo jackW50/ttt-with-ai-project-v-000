@@ -65,5 +65,16 @@ class Game
       end
     end 
   end 
+  
+  def start 
+    puts "Hello! Let's play Tic-Tac_Toe!!"
+    puts "How many players? 0, 1, or 2"
+    players = gets.strip
+    if players != 0 || 1 || 2
+      start 
+    elsif players == 1 
+      puts "Who should go first? User or Computer?"
+      first = gets.strip 
+      if first 
     
 end 
