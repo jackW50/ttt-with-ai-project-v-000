@@ -31,6 +31,8 @@ module Players
       board.cells[4]
     end
       
+    def center_move(board)
+      
     
     def open_corner(board)
       if board.cells[0] == " "
