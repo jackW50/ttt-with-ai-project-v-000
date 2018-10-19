@@ -16,7 +16,7 @@ game = Game.new(player_1, player_2)
 
 game.play
 
-
+puts input
 
 
   
