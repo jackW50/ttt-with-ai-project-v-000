@@ -77,7 +77,7 @@ module Players
         "3"
       elsif board.cells[6] == " "
         "7"
-      elsif corner_4(board) == " "
+      elsif board.cells[8] == " "
         "9"
       else 
         nil 
