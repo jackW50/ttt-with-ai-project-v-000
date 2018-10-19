@@ -76,6 +76,19 @@ class Game
       puts "Who should go first? User or Computer?"
       first = gets.strip 
       if first != "User" || "Computer"
-      
+        puts "1 or 2"
+        first = gets.strip
+        if first == 1 
+          player_1 = Players::Human.new("X")
+          player_2 = Players::Computer.new("O")
+        elsif first == 2 
+          player_1 = Players::Computer.new("X")
+          player_2 = Players::Human.new("O")
+        else 
+          "Wha Happened"
+        end 
+      elsif first == "User"
+        player_1 = Players::Human.new("X")
+        player_2 = Players::Computer.new("O")
     
 end 
