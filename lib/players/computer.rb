@@ -22,7 +22,7 @@ module Players
         input = counter_attack(board) || opposite_corner(board) || open_corner(board) 
         
       else 
-        input = counter_attack(board) || open_corner(board) || rand(1..9)
+        input = go_for_win(board) || counter_attack(board) || open_corner(board) || rand(1..9)
       end 
       
       input 
