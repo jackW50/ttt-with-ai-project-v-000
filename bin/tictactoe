@@ -6,7 +6,7 @@ puts "Tic Tac Toe"
 puts "How many?"
 input = gets.strip
 
-if input = 1
+if input == 1
   puts "Wha Happened?"
 end
 
