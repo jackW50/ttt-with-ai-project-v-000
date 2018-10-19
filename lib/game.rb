@@ -66,19 +66,5 @@ class Game
     end 
   end 
   
-  def start 
-    board = Board.new
-    puts "Tic Tac Toe"
-    puts "How many?"
-    input = gets.strip 
-    puts "Order?"
-    order = gets.strip
-    if input == 1 
-      Game.new(Players::Human.new("X"), Players::Computer.new("O"), board).play
-    else 
-      "Wha Happened?"
-    end 
-  end 
-    
       
 end 
