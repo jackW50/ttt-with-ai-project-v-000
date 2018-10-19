@@ -16,9 +16,12 @@ game = Game.new(player_1, player_2)
 
 game.play
 
-if input == "1" 
+if input == 1 
   puts input
 end 
 
+if input == 2 
+  puts "Next"
+end 
 
   
