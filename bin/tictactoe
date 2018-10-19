@@ -30,4 +30,4 @@ board = Board.new
 
 game = Game.new(player_1, player_2, board)
 
-100.times do game.play 
+5.times do game.play 
