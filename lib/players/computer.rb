@@ -143,7 +143,7 @@ module Players
     end 
   
     def counter(board)
-      if !almost_winner(board) 
+      if almost_winner(board) == nil
         nil
       else 
         almost_winner(board).detect do |spot|
