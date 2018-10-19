@@ -3,7 +3,7 @@
 require_relative '../config/environment'
 
 Game.start
-Game.game_over
+
 
 
   
