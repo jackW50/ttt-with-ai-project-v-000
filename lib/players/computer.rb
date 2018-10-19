@@ -139,6 +139,7 @@ module Players
         almost_winner_o(board)
       else 
         nil
+      end 
     end 
   
     def counter(board)
