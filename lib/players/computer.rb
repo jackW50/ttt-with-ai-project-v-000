@@ -99,7 +99,7 @@ module Players
     end 
   
     def corner_furthest(board)
-      if top_edge(board) != " "
+      if top_edge(board) != " " && corner_3(board) == " " || corner_4 == " "
         "7" || "9"
       elsif bottom_edge(board) != " "
         "1" || "3"
