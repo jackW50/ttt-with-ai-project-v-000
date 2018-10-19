@@ -66,7 +66,7 @@ class Game
     end 
   end 
   
-  def start 
+  def self.start 
     player_1 = nil 
     player_2 = nil
     puts "Tic Tac Toe"
