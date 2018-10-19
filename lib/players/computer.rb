@@ -7,10 +7,10 @@ module Players
       input = rand(1..9)
       
       if board.turn_count == 0 
-        input = "5"
+        input = center_move(board)
         
       elsif board.turn_count == 1 && center(board) == " "
-        input = "5"
+        input = center_move(board)
         
       elsif board.turn_count == 1 && center(board) != " "
         input = open_corner(board)
