@@ -8,7 +8,7 @@ input = gets.strip
 player_1 = nil
 player_2 = nil
 
-def player_1
+def players
   if input == 1 
     player_1 = "Human"
     player_2 = "Computer"
@@ -20,7 +20,10 @@ def player_1
   end 
 end 
 
+players 
 
+puts player_1
+puts player_2
 
 
 
