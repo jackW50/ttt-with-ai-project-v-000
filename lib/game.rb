@@ -67,9 +67,7 @@ class Game
   end 
   
   def self.start 
-    player_1 = nil 
-    player_2 = nil
-    puts "Tic Tac Toe"
+    puts "Welcome to Tic Tac Toe!!"
     puts "How many players? 1, 2, or 0"
     input = gets.strip.to_i
 
