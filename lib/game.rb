@@ -98,6 +98,7 @@ class Game
     else 
       start
     end 
+  end 
 
       
 end 
