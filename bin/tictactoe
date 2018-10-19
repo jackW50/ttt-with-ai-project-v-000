@@ -7,7 +7,7 @@ puts "How many?"
 input = gets.strip.to_i
 
 puts "Who goes first? For User: 1, and for Computer: 2"
-order = gets.strip
+order = gets.strip.to_i
 
 player_1 = Players::Computer.new("X") 
 player_2 = Players::Computer.new("O") 
