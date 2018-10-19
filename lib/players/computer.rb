@@ -22,6 +22,7 @@ module Players
         input = edge_move?(board) || counter_attack(board) || open_corner(board) 
       
       elsif board.turn_count == 6
+        input = go_for_win(board) || counter_attack(board) || open_edge?(board)
         
       else 
         input = go_for_win(board) || counter_attack(board) || open_corner(board) || rand(1..9)
