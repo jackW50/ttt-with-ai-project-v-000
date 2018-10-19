@@ -9,7 +9,7 @@ input = gets.strip
 puts "order?"
 order = gets.strip
 
-
+puts "Human" if input = 1
 
 
 
