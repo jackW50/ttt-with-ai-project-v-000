@@ -28,47 +28,10 @@ module Players
       input 
     end
   
-  
-  
     def center(board)
       board.cells[4]
     end 
   
-    def corner_1(board)
-      board.cells[0]
-    end 
-  
-    def corner_2(board)
-      board.cells[2]
-    end 
-  
-    def corner_3(board)
-      board.cells[6]
-    end 
-  
-    def corner_4(board)
-      board.cells[8]
-    end 
-  
-    def top_edge(board)
-      board.cells[1]
-    end 
-  
-    def bottom_edge(board)
-      board.cells[7]
-    end 
-  
-    def left_edge(board)
-      board.cells[3]
-    end 
-  
-    def right_edge(board)
-      board.cells[5]
-    end 
-    
-    def corners(board)
-      [corner_1(board), corner_2(board), corner_3(board), corner_4(board)]
-    end 
     
     def open_corner(board)
       if board.cells[0] == " "
