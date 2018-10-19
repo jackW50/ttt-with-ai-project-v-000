@@ -73,7 +73,7 @@ module Players
     def open_corner(board)
       if board.cells[0] == " "
         "1"
-      elsif corner_2(board) == " " 
+      elsif board.cells[2] == " " 
         "3"
       elsif corner_3(board) == " "
         "7"
