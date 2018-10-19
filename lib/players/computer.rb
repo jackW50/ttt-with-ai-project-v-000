@@ -182,7 +182,7 @@ module Players
       end 
     end 
     
-    def edge_move(board)
+    def edge_move?(board)
       if board.cells[0] != " " && board.cells[8] != " "
         "4"
       elsif board.cells[6] != " " && board.cells[2] != " "
