@@ -133,7 +133,7 @@ module Players
     end
   
     def almost_winner(board)
-      almost_winner_x(board) || almost_winner_o(board)
+      if almost_winner_x(board).is_a?
     end 
   
     def counter(board)
