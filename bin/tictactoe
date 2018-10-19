@@ -6,6 +6,8 @@ puts "Tic Tac Toe"
 puts "How many?"
 input = gets.strip
 
+input
+
 
 
 
