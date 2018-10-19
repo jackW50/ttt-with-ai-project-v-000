@@ -2,9 +2,9 @@
 
 require_relative '../config/environment'
 
-puts "Hello!, Let's Play Tic Tac Toe!"
-puts "How many players: 1, 2 or 0"
-input = gets.strip 
+#puts "Hello!, Let's Play Tic Tac Toe!"
+#puts "How many players: 1, 2 or 0"
+#input = gets.strip 
 
 #def player_1(input)
 #  if input == 1 || 2  
