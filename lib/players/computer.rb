@@ -10,7 +10,7 @@ module Players
         input = center_move(board)
         
       elsif board.turn_count == 1 && center(board) == " "
-        input = center_move(board)
+        input = center_move
         
       elsif board.turn_count == 1 && center(board) != " "
         input = open_corner(board)
