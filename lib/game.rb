@@ -80,6 +80,7 @@ class Game
       player_1 = Players::Human.new("X")
       player_2 = Players::Computer.new("O")
       Game.new(player_1, player_2).play
+      game_over
 
     elsif input == 1 && order == 2 
       player_1 = Players::Computer.new("X")
