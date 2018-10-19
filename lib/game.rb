@@ -65,11 +65,5 @@ class Game
       end
     end 
   end 
-  
-  def start 
-    puts "Hello! Let's play Tic-Tac_Toe!!"
-    puts "How many players? 0, 1, or 2"
-    players = gets.strip
-    
     
 end 
